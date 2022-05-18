@@ -10,16 +10,16 @@ public class Main {
 	    // We should really use setters and getters here but for simplicity we are just using public variables of the class 
 	    // see encapsulation
 	    Paddle1.name = "Paddle1";
-	    Paddle1.height = 63;
-	    Paddle1.width = 155;
+	    Paddle1.height = 54; // changed height 
+	    Paddle1.width = 160; // changed width 
 	    Paddle1.color = "FF00FF";
 	 
 	    // Create an object from the Paddle class
 	    Paddle Paddle2 = new Paddle();
 	    // Set properties
 	    Paddle2.name = "Paddle2";
-	    Paddle2.height = 38;
-	    Paddle2.width = 261;
+	    Paddle2.height = 45; // changed height of the paddle 
+	    Paddle2.width = 261; // changed the width 
 	    Paddle2.color = "66D91";
 	 
 	  // Display the attributes of these new Objects  
